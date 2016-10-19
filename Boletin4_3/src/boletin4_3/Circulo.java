@@ -11,7 +11,7 @@ package boletin4_3;
  */
 public class Circulo {
     private double radio;
-    private double PI = 3.14f;
+    private final double PI = 3.14f;
     public Circulo(){
     }
     public Circulo(double rad){
