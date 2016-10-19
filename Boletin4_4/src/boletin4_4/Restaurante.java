@@ -13,11 +13,17 @@ public class Restaurante {
     private int KgP;
     private int KGpat;
     
-     public void setPulp(int x ){
+    public void setPulp(int x ){
          KgP = x;
      }
      
-     public void setPat ( int x)     ''           
-   public void getPulp( )
-   public void getPat ( )
+    public void setPat ( int x){
+        KGpat = x;
+     }          
+    public int getPulp( ){
+        return KgP;
+    }
+    public int getPat ( ){
+        return KGpat;
+    }
 }
